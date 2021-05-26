@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    id: 0,
+    name: 'Spotioke',
+    image: 'https://general-ez.s3-us-west-1.amazonaws.com/spoti.png',
+    desc: 'An app that does... and .... and ...',
+    live: 'http://spotioke.herokuapp.com/',
+    repo: '',
+  },
+  {
+    id: 1,
+    name: 'Airbnb Clone',
+    image: 'https://general-ez.s3-us-west-1.amazonaws.com/spoti.png',
+    desc: 'An app that does... and .... and ...',
+    live: 'https://airbnb-gallery-clone.herokuapp.com/',
+    repo: '',
+  },
+  {
+    id: 2,
+    name: 'Weather App',
+    image: 'https://general-ez.s3-us-west-1.amazonaws.com/spoti.png',
+    desc: 'An app that does... and .... and ...',
+    live: '',
+    repo: '',
+  },
+  {
+    id: 3,
+    name: 'REI: Clone',
+    image: 'https://general-ez.s3-us-west-1.amazonaws.com/spoti.png',
+    desc: 'An app that does... and .... and ...',
+    live: 'https://rei-reviews-clone.herokuapp.com/',
+    repo: '',
+  },
+  {
+    id: 4,
+    name: 'Calculator',
+    image: 'https://general-ez.s3-us-west-1.amazonaws.com/spoti.png',
+    desc: 'An app that does... and .... and ...',
+    live: '',
+    repo: '',
+  },
+]

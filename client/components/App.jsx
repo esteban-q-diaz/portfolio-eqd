@@ -9,7 +9,6 @@ import Projects from './Projects';import {
   useLocation,
   withRouter,
 } from 'react-router-dom';
-
 import NavBar from './NavBar';
 
 const App = () => {
@@ -18,7 +17,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route path='/' exact>
-            <Header />
+            {/* <Header /> */}
             <Projects />
           </Route>
 

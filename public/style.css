@@ -4,7 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   /* overflow: hidden; */
   height: 100%;
-  background: black;
+  background: blue;
 }
 
 
@@ -51,7 +51,7 @@ h1:nth-child(2) {
   width: 35vw;
 }
 
-.header {
+/* .header {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -59,7 +59,7 @@ h1:nth-child(2) {
   margin: 5vmin;
   height: 90vh;
   overflow: hidden;
-}
+} */
 
 #text {
   flex: 3;
@@ -102,8 +102,8 @@ img {
   top: 0;
 }
 
-.bg-photo {
-  /* background: pink; */
+/* .bg-photo {
+  background: pink;
   z-index: 2;
   position: fixed;
   margin: 5vmin;
@@ -112,9 +112,12 @@ img {
   right: 0;
   bottom: 0;
   left: 35%;
-  background-image: url('https://general-ez.s3-us-west-1.amazonaws.com/port3.png');
+  background-image: url('https://www.dejan.works/img/DejanHome.png');
   /* https://www.dejan.works/img/DejanHome.png
-  https://general-ez.s3-us-west-1.amazonaws.com/port3.png */
+  https://general-ez.s3-us-west-1.amazonaws.com/port3.png
+  https://general-ez.s3-us-west-1.amazonaws.com/port3.png
+
+
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -126,19 +129,19 @@ img {
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-}
+} */
 
-#projects-link {
+/* #projects-link {
   width: 40vw;
-}
-
+} */
+/*
 #about-link {
   width: 40vw;
 }
 
 #contact-link {
   width: 60vw;
-}
+} */
 
 @media only screen and (max-height: 500px) {
   #text {
@@ -154,17 +157,41 @@ img {
 
 
 /* -------- PROJECTS ----------*/
-
+/*
 .projects {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: greenyellow;
-  margin: 5vmin;
-  height: 90vh;
-  overflow: hidden;
+  background: white;
+  height: 100vh;
+  width: 100vw;
 }
+
+.inner-box {
+  background-color: lightpink;
+  width: 98vw;
+  height: 98vh;
+} */
+
+/* .heading-text {
+  color: white;
+  background-color: orange;
+  margin: 0px 4% 0px 4%;
+  text-align: left;
+  height: auto;
+  border: 1px solid;
+  margin: 0 0.7rem;
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+} */
+
+/* .heading-text h1, p {
+  background: purple;
+  margin: 0;
+  width: 100%;
+} */
 
 .project-cards {
   display: flex;
@@ -177,9 +204,34 @@ img {
   align-items: center;
 }
 
+/* .project-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  overflow: auto;
+} */
+
+/* 
+.project {
+  height: 550px;
+  background-color: red;
+  border: 1px solid;
+  margin: 0 0.7rem;
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+} */
+
 .project-image {
   width: 80%;
   margin-top: 5vmin;
+}
+
+.project-image img{
+  width: 50vh;
+  height: 32.6vh;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
 }
 
 .project-text {
@@ -221,7 +273,7 @@ img {
 
 /* -------- ABOUT ----------*/
 
-.about {
+/* .about {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -231,28 +283,28 @@ img {
   height: 90vh;
   color: black;
   overflow-y: scroll;
-}
+} */
 ::-webkit-scrollbar {
   display: none;
 }
 
-.title {
+/* .title {
   display: flex;
   align-items: center;
-}
+} */
 
-.left {
+/* .left {
   flex: 3;
 }
 
 .right {
   flex: 1;
-}
-
+} */
+/*
 .right img {
   width: 50px;
   cursor: pointer;
-}
+} */
 
 .description {
   text-align: left;

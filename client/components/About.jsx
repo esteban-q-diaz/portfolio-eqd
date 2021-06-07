@@ -7,7 +7,7 @@ const AboutContainer = styled.div`
   text-align: center;
   justify-content: flex-start;
   background: greenyellow;
-  margin: 5vmin;
+  margin: 3vmin;
   height: 90vh;
   color: black;
   overflow-y: scroll;
